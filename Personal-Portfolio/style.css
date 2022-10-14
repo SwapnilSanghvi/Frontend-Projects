@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    text-align: center;
+}
+
+.top {
+    background-color: #e4f9f5;
+    padding: 100px;
+    position: relative;
+}
+
+h1 {
+    font-size: 5.6rem;
+    color: #66bfbf;
+    font-family: "Sacramento", cursive;
+    margin: 20px auto 0 auto;
+    font-weight: 800;
+}
+h2 {
+    color: #66bfbf;
+    margin: 0 auto;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.5rem;
+    margin: 30px auto 20px auto;
+}
+
+.pro {
+    text-decoration: underline;
+}
+
+.top-cloud {
+    position: absolute;
+    top: 40px;
+    right: 300px;
+}
+.bottom-cloud {
+    position: absolute;
+    bottom: 300px;
+    left: 250px;
+}
+.mountain {
+    position: relative;
+    bottom: -100px;
+}
+
+.middle {
+    margin: 100px 0;
+    position: relative;
+}
+
+p {
+    line-height: 2;
+    font-family: "Merriweather", serif;
+    color: #40514e;
+}
+.intro {
+    width: 30%;
+    margin: auto;
+}
+
+hr {
+    border: dotted #eaf6f6 5px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+
+h3 {
+    color: #11999e;
+    font-family: "Montserrat", sans-serif;
+}
+
+.skill {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+}
+
+.code-img {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.chilli-img {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+.contact-message {
+    width: 40%;
+    margin: 40px auto 60px;
+}
+
+.btn {
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-family: "Montserrat", sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+a {
+    color: #11999e;
+    font-family: "Montserrat", sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+.bottom {
+    background-color: #66bfbf;
+    padding: 50px 0 20px;
+}
+
+.copyright {
+    color: #eaf6f6;
+    font-size: 0.75rem;
+    padding: 20px 0;
+}
