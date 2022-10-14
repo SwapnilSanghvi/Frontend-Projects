@@ -4,8 +4,9 @@ Hello Developers, Here you will find front-end projects which are made up of HTM
 
 ## Web Development Projects Collection
 
-| Title | Code | Live Demo |
-| ----- | ---- | --------- |
+| Title              | Code                                                                                                                    | Live Demo                                                                                    |
+| ------------------ | ----------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- |
+| Personal Portfolio | [Personal Portfolio using HTML & CSS](https://github.com/SwapnilSanghvi/Frontend-Projects/tree/main/Personal-Portfolio) | [Personal Portfolio](https://swapnilsanghvi.github.io/Frontend-Projects/Personal-Portfolio/) |
 
 ## :handshake: Our Contributors
 
