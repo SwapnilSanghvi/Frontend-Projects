@@ -6,10 +6,5 @@ Hello Developers, Here you will find front-end projects which are made up of HTM
 
 | Title              | Code                                                                                                                    | Live Demo                                                                                    |
 | ------------------ | ----------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- |
-| Personal Portfolio | [Personal Portfolio using HTML & CSS](https://github.com/SwapnilSanghvi/Frontend-Projects/tree/main/Personal-Portfolio) | [Personal Portfolio](https://swapnilsanghvi.github.io/Frontend-Projects/Personal-Portfolio/) |
-
-## :handshake: Our Contributors
-
-<a href="https://github.com/SwapnilSanghvi/Frontend-Projects">
-  <img src="https://contrib.rocks/image?repo=SwapnilSanghvi/Frontend-Projects" style="width:100%;" />
-</a>
+| Personal Portfolio | [Personal Portfolio using HTML & CSS](https://github.com/SwapnilSanghvi/Frontend-Projects/tree/main/Personal-Portfolio) | [Preview](https://swapnilsanghvi.github.io/Frontend-Projects/Personal-Portfolio/) |
+| UI Designer Portfolio | [UI Portfolio using HTML & CSS](https://github.com/SwapnilSanghvi/Frontend-Projects/tree/main/UI-Portfolio) | [Preview](https://swapnilsanghvi.github.io/Frontend-Projects/UI-Portfolio/) |
