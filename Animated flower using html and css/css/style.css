@@ -1,0 +1,185 @@
+.p {
+    width: 800px;
+    height: 800px;
+    margin: 150px auto;
+    position: relative;
+    animation: abc 2s linear infinite;
+}
+@keyframes abc {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+.a {
+    width: 400px;
+    height: 400px;
+    border-top-right-radius: 400px;
+    border-bottom-left-radius: 400px;
+    transform-origin: right bottom;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.s1 {
+    background: rgb(202, 202, 62);
+    transform: rotate(9deg);
+}
+.s2 {
+    background: yellow;
+    transform: rotate(18deg);
+}
+.s3 {
+    background: yellowgreen;
+    transform: rotate(27deg);
+}
+.s4 {
+    background: rgb(109, 212, 109);
+    transform: rotate(36deg);
+}
+.s5 {
+    background: rgb(12, 160, 12);
+    transform: rotate(45deg);
+}
+.s6 {
+    background: green;
+    transform: rotate(54deg);
+}
+.s7 {
+    background: darkgreen;
+    transform: rotate(63deg);
+}
+.s8 {
+    background: rgb(5, 44, 5);
+    transform: rotate(72deg);
+}
+.s9 {
+    background: olive;
+    transform: rotate(81deg);
+}
+.s10 {
+    background: orange;
+    transform: rotate(90deg);
+}
+.s11 {
+    background: rgb(157, 106, 10);
+    transform: rotate(99deg);
+}
+.s12 {
+    background: rgb(203, 47, 47);
+    transform: rotate(108deg);
+}
+.s13 {
+    background: orangered;
+    transform: rotate(117deg);
+}
+.s14 {
+    background: red;
+    transform: rotate(126deg);
+}
+.s15 {
+    background: rgb(212, 50, 50);
+    transform: rotate(135deg);
+}
+.s16 {
+    background: maroon;
+    transform: rotate(144deg);
+}
+.s17 {
+    background: palevioletred;
+    transform: rotate(153deg);
+}
+.s18 {
+    background: pink;
+    transform: rotate(162deg);
+}
+.s19 {
+    background: rgb(192, 73, 93);
+    transform: rotate(171deg);
+}
+.s20 {
+    background: rgb(204, 49, 101);
+    transform: rotate(180deg);
+}
+.s21 {
+    background: hotpink;
+    transform: rotate(189deg);
+}
+.s22 {
+    background: rgb(141, 21, 61);
+    transform: rotate(198deg);
+}
+.s23 {
+    background: magenta;
+    transform: rotate(207deg);
+}
+.s24 {
+    background: rgb(149, 7, 149);
+    transform: rotate(216deg);
+}
+.s25 {
+    background: rgb(99, 8, 99);
+    transform: rotate(225deg);
+}
+.s26 {
+    background: purple;
+    transform: rotate(234deg);
+}
+.s27 {
+    background: rgb(62, 4, 62);
+    transform: rotate(243deg);
+}
+.s28 {
+    background: rgb(92, 42, 92);
+    transform: rotate(252deg);
+}
+.s29 {
+    background: skyblue;
+    transform: rotate(261deg);
+}
+.s30 {
+    background: cyan;
+    transform: rotate(270deg);
+}
+.s31 {
+    background: darkcyan;
+    transform: rotate(279deg);
+}
+.s32 {
+    background: rgb(87, 87, 215);
+    transform: rotate(288deg);
+}
+.s33 {
+    background: blue;
+    transform: rotate(297deg);
+}
+.s34 {
+    background: darkblue;
+    transform: rotate(306deg);
+}
+.s35 {
+    background: navy;
+    transform: rotate(315deg);
+}
+.s36 {
+    background: rgb(2, 2, 75);
+    transform: rotate(324deg);
+}
+.s37 {
+    background: rgb(218, 122, 122);
+    transform: rotate(333deg);
+}
+.s38 {
+    background: rgb(207, 71, 71);
+    transform: rotate(342deg);
+}
+.s39 {
+    background: brown;
+    transform: rotate(351deg);
+}
+.s40 {
+    background: maroon;
+    transform: rotate(360deg);
+}
