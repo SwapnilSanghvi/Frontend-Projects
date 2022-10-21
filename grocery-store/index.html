@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complete Responsive Grocery Website Design Tutorial</title>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Caveat&family=Nunito:wght@300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+    *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+        font-family: 'Nunito', sans-serif;
+    }
+    body{
+        width: 100%;
+        height: 535vh;
+        background-color: whitesmoke;
+    }
+
+    .header{
+        text-transform: capitalize;
+    }
+    .navbar{
+        display: flex;
+        color: black;
+        align-items: center;
+        justify-content: space-between;
+        text-align: center;
+        padding-left: 8%;
+        padding-right: 8%;
+        font-size: 23px;
+        background-color: white;
+        width: 100%;
+        height: 70px;
+        position: fixed;
+        z-index: 1;
+    }
+    .logo{
+        color: black;
+        font-size: 28px;
+    }
+    span{
+        color: tomato;
+    }
+    nav ul li{
+        list-style-type: none;
+        display: inline-block;
+        padding: 10px 10px;
+    }
+    nav ul li a {
+        color: black;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    nav ul li a:hover{
+        color: #e81313ff;
+        transition:  .3s;
+    }
+    button{
+        border: none;
+        background: #e81313ff;
+        padding: 10px 30px;
+        border-radius: 30px;
+        color: white ;
+        font-weight: bold;
+        font-size: 20px;
+        transition: .4s;
+        text-transform: capitalize;
+    }
+    button:hover{
+        transform: scale(1.2);
+        cursor: pointer;
+    }
+.section{
+    width: 100%;
+    height: 450px;
+    background-image: url('/img/banner-bg.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 90px;
+}
+.first-section{
+    width: 35rem;
+    height: 13rem;
+}
+.first-section h2{
+    font-size: 2rem;
+    font-weight:900;
+    padding-bottom: 1.5rem;
+}
+.first-section p{
+    font-size: 1rem;
+    padding-bottom: 1.5rem;
+}
+.first-box-h2{
+    text-align: center;
+    margin: 2.5rem;
+}
+.first-box h2{
+    font-size: 1.9rem;
+    font-weight: 800;
+}
+.first-box-span{
+    background-color: rgb(247, 5, 33);
+    color: white;
+    font-weight: 800;
+    font-size: 2rem;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 30px;
+    margin-left: .3rem;
+}
+.first-box-container{
+    display: grid;
+    justify-content: center;
+    gap: 10px 100px;
+    grid-template-columns: 300px 300px 300px ;
+}
+
+.img-box{
+    border: 5px solid rgb(136, 136, 136) ;
+    width: 360px;
+    height: 470px;
+    border-radius: 5px;
+}
+.first-grid{
+height: 425px;
+text-align: center
+}
+
+.img-box-content{
+    margin: 25px;
+}
+
+.button-btn{
+    background-color: white;
+    color: black;
+    margin-top: 20px;
+    border-radius: 0px;
+    padding: 9px 15px;
+    border: 2px solid black;
+}
+.button-btn:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+
+}
+.checked {
+  color: orange;
+}
+
+
+
+
+
+.second-box-container{
+    display: grid;
+    justify-content: center;
+    gap: 10px 25px;
+    grid-template-columns: 320px 320px 320px 320px ;
+
+
+}
+.second-grid{
+    height: 400px;
+    border-radius: 5px;
+    border: 5px solid rgb(136, 136, 136) ;
+    width: 320px;
+    text-align: center;
+}
+
+footer{
+    height: 326px;
+    width: 100%;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 90px;
+    border-top: 2px solid black;
+
+    
+}
+
+
+</style>
+</head>
+<body>
+   <header class="header" id="home">
+        <nav class="navbar">
+            <h2 class="logo">groco <span>store</span></h2>
+            <ul>
+                <li><a href="#home">home</a></li>
+                <li><a href="#features">features</a></li>
+                <li><a href="#products">products</a></li>
+                <li><a href="#categories">categories</a></li>
+                <li><a href="#review">review</a></li>
+                <li><a href="#blogs">blogs</a></li>
+            </ul>
+            <button type="button second-btn">subscribe</button>
+        </nav>
+      <div>
+        <section class="section">
+            <div class="first-section">
+                <h2>fresh and <span> organic</span> products for you</h2>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa nam facere nisi maxime repudiandae</p> 
+                <div>
+                   <button type="button">shop now</button>
+                </div> 
+            </div>
+        </section>
+    </div>
+
+    <!-- features -- section  -->
+
+
+    <div class="first-box features" id="features">
+        <h2 class="first-box-h2">our <span class="first-box-span">features</span> </h2>
+        <div class="first-box-container">
+            <div class="img-box first-grid">
+                <img src="./img/feature-img-1.png" alt="error" width="350px" height="230px">
+                <div class="img-box-content ">
+                <h3>freash and organic</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi, optio.</p>
+                <div>
+                    <button type="button" class="button-btn">read more</button>
+                 </div>
+                </div>
+            </div>
+            <div class="img-box first-grid" >
+                <img src="./img/feature-img-2.png" alt="error" width="350px" height="230px">
+                <div class="img-box-content">
+
+                    <h3>free delivery</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi, optio.</p>
+                    <div>
+                        <button type="button" class="button-btn">read more</button>
+                     </div>
+                </div>
+            </div>
+            <div class="img-box first-grid" >
+
+                <img src="./img/feature-img-3.png" alt="error" width="350px" height="230px">
+                <div class="img-box-content">
+                <h3>easy payments</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi, optio.</p>
+                <div>
+                    <button type="button" class="button-btn">read more</button>
+                 </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<!-- products-section -->
+
+    <div class="first-box features" id="products">
+        <h2 class="first-box-h2">our <span class="first-box-span">products</span> </h2>
+        <div class="first-box-container">
+            <div class="img-box first-grid">
+                <img src="./img/product-1.png" alt="error" width="350px" height="230px">
+                <div class="img-box-content ">
+                <h3>fresh orange</h3>
+                <p>$4.99-$10.99</p>
+                <p><span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span></p>
+                <div>
+                    <button type="button" class="button-btn">add to cart</button>
+                 </div>
+                </div>
+            </div>
+            <div class="img-box first-grid">
+                <img src="./img/product-2.png" alt="error" width="350px" height="230px">
+                <div class="img-box-content">
+
+                    <h3>fresh onion</h3>
+                    <p>$4.99-$10.99</p>
+                    <p><span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span></p>
+                    <div>
+                        <button type="button" class="button-btn">add to cart</button>
+                     </div>
+                </div>
+            </div>
+            <div class="img-box first-grid">
+
+                <img src="./img/product-3.png" alt="error" width="350px" height="230px">
+                <div class="img-box-content">
+                <h3>fresh meat</h3>
+                <p>$4.99-$10.99</p>
+                <p><span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span></p>
+                <div>
+                    <button type="button" class="button-btn">add to cart</button>
+                 </div>
+                </div>
+            </div>
+
+
+
+
+            <div class="img-box first-grid" >
+                <img src="./img/product-4.png" alt="error" width="350px" height="230px">
+                <div class="img-box-content ">
+                <h3>fresh carrot</h3>
+                <p>$4.99-$10.99</p>
+                <p><span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span></p>
+                <div>
+                    <button type="button" class="button-btn">add to cart</button>
+                 </div>
+                </div>
+            </div>
+            <div class="img-box first-grid">
+                <img src="./img/product-5.png" alt="error" width="350px" height="230px">
+                <div class="img-box-content">
+
+                    <h3>fresh cabbage</h3>
+                    <p>$4.99-$10.99</p>
+                    <p><span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span></p>
+                    <div>
+                        <button type="button" class="button-btn">add to cart</button>
+                     </div>
+                </div>
+            </div>
+            <div class="img-box first-grid">
+
+                <img src="./img/product-6.png" alt="error" width="350px" height="230px">
+                <div class="img-box-content">
+                <h3>fresh avocado</h3>
+                <p>$4.99-$10.99</p>
+                <p><span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span></p>
+                <div>
+                    <button type="button" class="button-btn">add to cart</button>
+                 </div>
+                </div>
+            </div>
+
+            
+        </div>
+    </div>
+
+<!-- categories--section -->
+
+
+    <div class="first-box features" id="categories">
+        <h2 class="first-box-h2">our <span class="first-box-span">Categories</span> </h2>
+        <div class="second-box-container">
+            <div class="second-grid">
+                <img src="./img/cat-1.png" alt="error" width="300px" height="210px">
+                <div class="img-box-content ">
+                <h3>organic vegitables</h3>
+                <p>upto 45% off</p>
+                
+                <div>
+                    <button type="button" class="button-btn">add to cart</button>
+                 </div>
+                </div>
+            </div>
+            
+ 
+            <div class="second-grid">
+                <img src="./img/cat-2.png" alt="error" width="300px" height="210px">
+                <div class="img-box-content ">
+                    <h3>organic vegitables</h3>
+                    <p>upto 45% off</p>
+                    
+                    <div>
+                        <button type="button" class="button-btn">add to cart</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="second-grid">
+                <img src="./img/cat-3.png" alt="error" width="300px" height="210px">
+                <div class="img-box-content ">
+                <h3>dairy products</h3>
+                <p>upto 45% off</p>
+                
+                <div>
+                    <button type="button" class="button-btn">add to cart</button>
+                 </div>
+                </div>
+            
+        </div>  
+         
+            <div class="second-grid">
+                <img src="./img/cat-4.png" alt="error" width="300px" height="210px">
+                <div class="img-box-content ">
+                <h3>fresh meat</h3>
+                <p>upto 45% off</p>
+                
+                <div>
+                    <button type="button" class="button-btn">add to cart</button>
+                 </div>
+                </div>
+            </div>
+       
+    </div>  
+    </div>
+
+
+
+<!-- review--section -->
+
+    <div class="first-box features" id="review">
+        <h2 class="first-box-h2">customer's  <span class="first-box-span">Review</span> </h2>
+        <div class="first-box-container">
+            <div class="img-box first-grid">
+                <img src="./img/pic-1.png" alt="error" width="350px" height="230px">
+                <div class="img-box-content ">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate laboriosam quam distinctio veniam magni cupiditate facere possimus ea praesentium? </p><br>
+                <h3>john deo</h3>
+                <p><span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span></p>
+                </div>
+            </div>
+            <div class="img-box first-grid">
+                <img src="./img/pic-2.png" alt="error" width="350px" height="230px">
+                <div class="img-box-content">
+
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate laboriosam quam distinctio veniam magni cupiditate facere possimus ea praesentium?</p><br>
+                    <h3>john deo</h3>
+                    <p><span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span></p>
+
+                </div>
+            </div>
+            <div class="img-box first-grid">
+
+                <img src="./img/pic-3.png" alt="error" width="350px" height="230px">
+                <div class="img-box-content">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate laboriosam quam distinctio veniam magni cupiditate facere possimus ea praesentium?</p><br>
+                <h3>john deo</h3>
+                <p><span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- blogs--section -->
+    
+    <div class="first-box" id="blogs">
+        <h2 class="first-box-h2">our <span class="first-box-span">blogs</span> </h2>
+        <div class="first-box-container">
+            <div class="img-box">
+                <img src="./img/blog-1.jpg" alt="error" width="350px" height="250px">
+                <div class="img-box-content">
+                <h3>freash and organic <br> vegitabels and fruits</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi, optio.</p>
+                <div>
+                    <button type="button" class="button-btn">read more</button>
+                 </div>
+                </div>
+            </div>
+            <div class="img-box">
+                <img src="./img/blog-2.jpg" alt="error" width="350px" height="250px">
+                <div class="img-box-content">
+
+                    <h3>freash and organic <br> vegitabels and fruits</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi, optio.</p>
+                    <div>
+                        <button type="button" class="button-btn">read more</button>
+                     </div>
+                </div>
+            </div>
+            <div class="img-box">
+
+                <img src="./img/blog-3.jpg" alt="error" width="350px" height="250px">
+                <div class="img-box-content">
+                <h3>freash and organic <br> vegitabels and fruits</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi, optio.</p>
+                <div>
+                    <button type="button" class="button-btn">read more</button>
+                 </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </header>
+
+
+    <footer>
+
+        <div>
+            created by <span> mr. web designer</span> | all rights reseved
+        </div>
+
+    </footer>
+</body>
+</html>
